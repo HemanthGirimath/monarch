@@ -3,7 +3,7 @@ import Header from "@/components/layout/header";
 import Hero from "@/components/sections/hero";
 import { Footer } from "@/components/layout/footer";
 import { Suspense } from 'react';
-
+import VideoShowcase from "@/components/sections/video-showcase";
 // Optimize imports with separate chunks
 const Features = dynamic(() => import("@/components/sections/features"), {
   loading: () => <SectionLoader />,
@@ -31,6 +31,9 @@ export default function Home() {
         <Hero />
         <Suspense fallback={<SectionLoader />}>
           <Features />
+        </Suspense>
+        <Suspense fallback={<SectionLoader />}>
+          <VideoShowcase />
         </Suspense>
         <Suspense fallback={<SectionLoader />}>
           <HowItWorks />
