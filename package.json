@@ -1,27 +1,31 @@
 {
-  "name": "monarch",
+  "name": "monarch-landing",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "NEXT_TELEMETRY_DISABLED=1 next dev",
+    "build": "NEXT_TELEMETRY_DISABLED=1 next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.2"
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.17",
+    "@types/react-dom": "18.2.7",
+    "firebase": "^11.7.3",
+    "framer-motion": "^10.16.4",
+    "googleapis": "^148.0.0",
+    "next": "13.4.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
+    "supports-color": "^10.0.0",
+    "typescript": "5.1.6",
+    "critters": "^0.0.20"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.2",
-    "@eslint/eslintrc": "^3"
+    "autoprefixer": "10.4.14",
+    "postcss": "8.4.27",
+    "tailwindcss": "3.3.3"
   }
 }
