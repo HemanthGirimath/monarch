@@ -12,16 +12,15 @@
     "@types/node": "20.4.5",
     "@types/react": "18.2.17",
     "@types/react-dom": "18.2.7",
+    "critters": "^0.0.20",
     "firebase": "^11.7.3",
     "framer-motion": "^10.16.4",
-    "googleapis": "^148.0.0",
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.11.0",
     "supports-color": "^10.0.0",
-    "typescript": "5.1.6",
-    "critters": "^0.0.20"
+    "typescript": "5.1.6"
   },
   "devDependencies": {
     "autoprefixer": "10.4.14",
